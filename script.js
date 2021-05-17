@@ -44,7 +44,7 @@ class CountdownTimer {
 
 new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('May 25, 2021 19:30'),
+  targetDate: new Date('June 1, 2021 00:00'),
 }).onStart();
 
 // second variant to get refs.....

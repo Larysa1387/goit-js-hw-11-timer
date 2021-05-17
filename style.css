@@ -1,3 +1,9 @@
+.title {
+  color: deeppink;
+  text-shadow: 1px 1px 2px rgb(18, 196, 12);
+  text-align: center;
+}
+
 .timer {
   display: flex;
   align-items: center;
