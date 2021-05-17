@@ -1,0 +1,33 @@
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.field .value {
+border: 2px solid gray;
+border-radius: 5px;
+color: #fff;
+background-color: purple;
+text-decoration: salmon;
+text-align: center;
+font-size: 40px;
+font-weight: 700;
+line-height: 1.15;
+padding: 5px;
+}
+
+.field .label {
+  padding-top: 10px;
+  font-size: 10px;
+  color: gray;
+  text-transform: uppercase;
+  text-align: center;
+}
