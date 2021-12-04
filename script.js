@@ -8,7 +8,7 @@ class CountdownTimer {
   onStart() {
     this.intervalId = setInterval(() => {
       const time = this.targetDate - Date.now();
-      console.log(time)
+      // console.log(time)
       if (time < 0) {
         clearInterval(this.intervalId);
         return;
